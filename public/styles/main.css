@@ -1,0 +1,97 @@
+.breadcrumb ul {
+    display: flex;
+}
+
+.breadcrumb li {
+    padding: 20px;
+}
+
+.btn-sizes{
+    font-size: 1em;
+    width:5em;
+}
+
+.description-text{
+    font-size: 1.3em;
+    width:200%;
+    text-align: justify;
+}
+
+.icon-liked {
+  color: red;
+}
+
+.icon-events-none {
+  pointer-events: none;
+  opacity: 0.5;
+} 
+
+body{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+.spacer{
+    flex:1;
+}
+
+.like-button {
+  position: absolute;
+  bottom: -25px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-height{
+    width: 100%;
+    height: 770px;
+}
+
+.carousel img {
+  display: block;
+  max-width: 100%;
+  height: 800px;
+}
+
+.home-cards img{
+    height: 250px;
+    width: 250px;
+}
+
+.home-cards{
+    display:flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.profile-img{
+    width:100px;
+    height:100px;
+}
+
+.logo-nav{
+    width:40px;
+    margin-right:10px;
+}
+
+.img-name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.cat-button{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
